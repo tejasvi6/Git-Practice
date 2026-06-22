@@ -5,4 +5,5 @@ with sync_playwright() as p:
    page = browser.new_page()
    page.goto('https://google.com')
    print(page.title())
+   print("test")
    browser.close()
