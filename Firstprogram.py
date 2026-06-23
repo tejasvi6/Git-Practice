@@ -6,4 +6,5 @@ with sync_playwright() as p:
    page.goto('https://google.com')
    print(page.title())
    print("test")
+   print("test1")
    browser.close()
